@@ -1,0 +1,26 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "REST API for todo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kma7/todo-api.git"
+  },
+  "author": "Kun Ma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kma7/todo-api/issues"
+  },
+  "homepage": "https://github.com/kma7/todo-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.2"
+  }
+}
